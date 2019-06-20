@@ -1,4 +1,4 @@
-def my_select(arg)
+def my_select(criteria, arg)
   array = []
   if arg.length == 0
     "nothing here"
@@ -6,5 +6,5 @@ def my_select(arg)
     arg.each {|x|
       if x
     }
-  
+  array
 end
