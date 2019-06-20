@@ -8,5 +8,6 @@ def my_select(criteria, arg)
         array << x
       end
     }
+  end
   array
 end
