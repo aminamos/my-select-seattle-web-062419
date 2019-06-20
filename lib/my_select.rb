@@ -6,6 +6,7 @@ def my_select(array)
     "nothing here" # can handle no criteria given
   else
     array.each {|x| 
+    binding.pry
       if x == arg # this is where I'm confused
         array << x 
       end
