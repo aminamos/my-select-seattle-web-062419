@@ -8,7 +8,7 @@ def my_select(array)
     array.each {|x| 
     binding.pry
       if x # ==  arg this is where I'm confused
-        array << x 
+        narray << x 
       end
     }
   end
