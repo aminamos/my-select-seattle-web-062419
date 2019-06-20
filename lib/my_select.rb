@@ -7,7 +7,7 @@ def my_select(array)
   else
     array.each {|x| 
     binding.pry
-      if x == arg # this is where I'm confused
+      if x # ==  arg this is where I'm confused
         array << x 
       end
     }
