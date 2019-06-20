@@ -1,7 +1,7 @@
 def my_select(array)
-  narray = [] # establish array to return at the end
+  narray = [] 
   if array.length == 0
-    "nothing here" # can handle no criteria given
+    "nothing here" 
   else
     array.each {|x| 
     
