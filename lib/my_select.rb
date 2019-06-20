@@ -3,8 +3,8 @@ def my_select(criteria, arg)
   if arg.length == 0
     "nothing here"
   else
-    arg.each {|x|
-      if x
+    criteria.each {|x|
+      if 
     }
   array
 end
