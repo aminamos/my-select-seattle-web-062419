@@ -1,3 +1,5 @@
+require "pry"
+
 def my_select(array)
   narray = [] # establish array to return at the end
   if array.length == 0
