@@ -4,7 +4,9 @@ def my_select(criteria, arg)
     "nothing here"
   else
     criteria.each {|x|
-      if 
+      if x == arg
+        array << x
+      end
     }
   array
 end
