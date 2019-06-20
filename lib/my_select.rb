@@ -13,7 +13,7 @@ def my_select(array)
     }
   end
   
-  array
+  narray
 
 end
 
